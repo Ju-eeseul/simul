@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Simulator</title>
+</head>
+<body>
+    <h1>Item Simulator</h1>
+    <div>
+        <label for="characterName">Character Name:</label>
+        <input type="text" id="characterName" placeholder="Enter character name">
+        <button id="createCharacterBtn">Create Character</button>
+    </div>
+    <div>
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" placeholder="Enter item name">
+        <button id="createItemBtn">Create Item</button>
+    </div>
+    <button id="fetchCharactersBtn">Characters</button>
+    <button id="fetchItemsBtn">Items</button>
+    <ul id="characterList"></ul>
+    <ul id="itemList"></ul>
+
+    <script src="index.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
